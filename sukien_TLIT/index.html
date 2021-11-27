@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- HEADER -->
+     <header class="heading--main">
+        <div class="header__logo">
+            <img class="logo--img" src="./css/img/logo.png" alt="logo">
+        </div>
+        <div class="header__link">
+            <ul class="nav--link">
+                <li><a class="nav__ " href="../Web_TLIT/index.html">trang chủ</a></li>
+                <li><a class="nav__ " href="../GIOITHIEU_TLIT/index.html">giới thiệu</a></li>
+                <li><a class="nav__active" href="#" >sự kiện</a></li>
+                <li><a class="nav__ " href="../GAMESHOW_TLIT/index.html">gameshow</a></li>
+                <li><a class="nav__ " href="../Lienhe_TLIT/index.html">liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- subHEADER -->
+
+
+    <section class="sukien--section__video">
+        <div class="img--bg">
+            <img class="imgbg" src="./css/img/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-16.jpg" alt="header">
+        </div>
+        <div class="navi--sukien">
+            <a class="main--navi" href="../Web_TLIT/index.html">Trang chủ</a>
+            <span class="main--event">Sự Kiện</span>
+        </div>
+    </section>
+    <section class="sukien--section__body">
+        <div class="sukien__body__header">Sự kiện</div>
+        <div class="sukien__body__body--1">
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event1.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        TFI - Summer2021
+                    </div>
+                    <div class="event__1--times">
+                        3 tháng 4, 2021
+                    </div>
+                </div>
+                <button class="btn btn--event__1">Xem chi tiết</button>
+            </div>
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event2.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        Tuyển thành viên
+                    </div>
+                    <div class="event__1--times">
+                        07 tháng 10, 2021
+                    </div>
+                </div>
+                <button class="btn btn--event__1">Xem chi tiết</button>
+            </div>
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event3.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        Ngày phụ nữ Việt Nam
+                    </div>
+                    <div class="event__1--times">
+                        20 tháng 10, 2021
+                    </div>
+                </div>
+                <button class="btn btn--event__1">Xem chi tiết</button>
+            </div>
+        </div>
+        <div class="sukien__body__body--1">
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event4.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        Sinh nhật CLB lần 7
+                    </div>
+                    <div class="event__1--times">
+                        02 tháng 7, 2021
+                    </div>
+                </div>
+                <button class="btn btn--event__1">Xem chi tiết</button>
+            </div>
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event5.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        Ngày nhà giáo Việt Nam
+                    </div>
+                    <div class="event__1--times">
+                        20 tháng 11, 2021
+                    </div>
+                </div>
+                <button onclick="xemChiTiet5()" class="btn btn--event__5">Xem chi tiết</button>
+            </div>
+            <div class="event__1 col span-1-of-3">
+                <div class="img--event__">
+                    <img class="event__1--img" src="./css/img/event6.jpg" alt="">
+                </div>
+                <div class="event__1--text">
+                    <div class="event__1--text__header">
+                        Chào tân sinh viên
+                    </div>
+                    <div class="event__1--times">
+                        10 tháng 10, 2021
+                    </div>
+                </div>
+                <button class="btn btn--event__1">Xem chi tiết</button>
+            </div>
+        </div>
+    </section>
+    <div class="distance"></div>
+    <section id="lienhe" class="section">
+        <div class="video--bg--lienhe"> 
+            <video autoplay loop muted class="bg--lienhe__">
+                <source src="./css/img/Comp_8.mp4"  > 
+            </video>
+        </div>
+        <div class="section__body">
+            <h2 class="section__body--text--head">Thông tin liên hệ</h2>
+            <h3 class="section__body--text">Tham gia tại câu lạc bộ  với chúng tôi mọi lúc</h3>
+            <p class="section__body--information">Địa chỉ: Nghiêm Xuân Yêm, Hà Nội</p>
+            <p class="section__body--information">Điện thoại: No information</p>
+            <p class="section__body--information">Email: tlit@thanglong.edu.vn</p>
+            <div class="section__body--icon">
+                <a href="#" class="section__target--icon"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="section__target--icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="section__target--icon"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" class="section__target--icon"><i class="fab fa-pinterest-square"></i></a>
+                <a href="#" class="section__target--icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer class="banquyen">
+        <div class="section--end span-2-of-2" >
+            <p class="section--end--text">© Bản quyền thuộc về <span class="team">team2_brother</span>  Thiết kế website <span class="team">TLIT</span> </p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
