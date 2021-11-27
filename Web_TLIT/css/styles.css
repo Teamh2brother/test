@@ -271,36 +271,37 @@ li a {
   
 }
 .header__2{
-  color:blue;
-}
-.header__3{
   color:green;
 }
-.header__4{
+.header__3{
   color:darkorange;
+}
+.header__4{
+  color:blue;
 }
 .table:first-child{
   border-top:8px solid red;
 }
 .table:nth-child(2){
-  border-top:8px solid blue;
-}
-.table:nth-child(3){
   border-top:8px solid green;
 }
-.table:last-child{
+.table:nth-child(3){
   border-top:8px solid darkorange;
+}
+.table:last-child{
+  border-top:8px solid blue;
 }
 .table{
   box-shadow: 3px 6px 18px #888888;
   border-radius:20px;
   padding:0 13px 50px 13px;
+  height: 400px;
 }
 .section__body__header{
   text-align: center;
   font-size:20px;
   font-weight: 500;
-  margin:15px 0 ;
+  margin:10px 0 ;
 }
 .section__body__body{
   text-align: center;
