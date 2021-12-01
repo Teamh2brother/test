@@ -14,7 +14,7 @@ body {
 }
 /*-----------------header-nav----------------------------*/
 .logo--img {
-  width: 80px;
+  width: 70px;
 }
 header {
   display: flex;
@@ -32,7 +32,7 @@ li {
 li a {
   text-decoration: none;
   margin: 0 20px;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
 }
 .nav__ {

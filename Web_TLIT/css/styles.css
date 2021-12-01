@@ -14,7 +14,7 @@ body {
 }
 /*-------------------------------header-----------------------------------------*/
 .logo--img {
-  width: 80px;
+  width: 70px;
 }
 header {
   display: flex;
@@ -32,9 +32,10 @@ li {
 li a {
   text-decoration: none;
   margin: 0 20px;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
 }
+
 .nav__ {
   transition: color 0.4s;
   transition: border-bottom 0.3s;
@@ -53,7 +54,7 @@ li a {
 /*-------------------------------slice and btn-----------------------------------------*/
 .picture {
   width: 100%;
-  height: 650px;
+  height: 600px;
   filter: brightness(100%);
 }
 .btn__ {
@@ -295,7 +296,12 @@ li a {
   box-shadow: 3px 6px 18px #888888;
   border-radius:20px;
   padding:0 13px 50px 13px;
-  height: 400px;
+  height: auto;
+  transition: all 0.3s;
+  cursor: default;
+}
+.table:hover{
+  transform: translateY(-10px);
 }
 .section__body__header{
   text-align: center;
