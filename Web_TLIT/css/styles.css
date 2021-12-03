@@ -170,7 +170,7 @@ li a {
   margin: 0 100px;
 }
 .taget__picture {
-  width: 90%;
+  width: 80%;
   object-fit: fill;
 }
 .content {
@@ -184,21 +184,7 @@ li a {
   margin-bottom: 20px;
   font-size: 18px;
 }
-.content__text--btn {
-  border: 3px solid #f5be4a;
-  color: #f5be4a;
-  width: 30%;
-  margin-top: 50px;
-  text-align: center;
-  padding: 15px 30px;
-  font-size: 18px;
-  transition: all 0.4s;
-  cursor: pointer;
-}
-.content__text--btn:hover {
-  background-color: #f5be4a;
-  color: bisque;
-}
+
 .content--taget {
   width: 90%;
 }
@@ -535,3 +521,63 @@ li a {
 .team {
   color: white;
 }
+/********************************/
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.5)), url('./picture/bg_section2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 11;
+  overflow:scroll;
+  display: none;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-law--section__header{
+  width: 100vw;
+  position: relative;
+  text-align: center;
+  line-height:200px;
+  font-size:32px;
+  font-weight:500;
+}
+.modal-law--section__body {
+  margin-left: 150px;
+  margin-right: 220px;
+  font-size:18px;
+  margin-bottom: 50px;
+  
+}
+.modal-law--section__body span{
+  line-height:2;
+}
+
+.modal-law--btn__close{
+  width: 150px;
+  text-align: center;
+  border: 2px solid #fff;
+  font-size:18px;
+  padding:15px 15px;
+  bottom: 50px;
+  right: 40px;
+  position: fixed;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.modal-law--btn__close:hover{
+  background-color: #fff;
+  color: #666;
+}
+.modal_body {
+  position: absolute;
+}
+

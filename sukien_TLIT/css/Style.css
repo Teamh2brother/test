@@ -1,17 +1,20 @@
-* {
+
+
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  html {
-    font-family: "Roboto", sans-serif;
-    color: #fff;
+    /* font-family: 'Montserrat', sans-serif; */
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+html, body{
+    font-family: "Roboto", sans-serif;    
+    height: 100%;
+    scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
-    font-size: 16px;
-  }
-  body {
-    overflow-x: hidden;
-  }
+}
   
   /* ////////////HEADER//////////// */
   
@@ -83,47 +86,82 @@
   height:200px;
 }
 /*--------------------------------------------event---------------------*/
-.sukien--section__body{
-  color: black;
-  margin: 50px 150px 100px 150px;
+:root{
+  --blue:#293b5f;
 }
-.sukien__body__header{
-  font-size: 42px;
-  font-weight:300;
-  letter-spacing: 5px;
-  margin-bottom: 15px;
+
+.event-section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 48px;
+  width: calc(100% - 300px);
+  margin-left: auto;
+  margin-right: auto;
 }
-.event__1--text__header{
-  text-align: center;
-  margin: 15px 0;
-  font-size: 28px;
-  font-weight: 500;
-}
-.event__1--times{
-  color: #505050;
-  text-align: center;
-  font-size: 18px;
-  font-weight:300;
-}
-.event__1--img{
-  width: 100%;
-  object-fit: fill;
-  height: 300px;
-}
-.btn{
-  background-color: white;
+
+
+
+.event-section .event{
   position: relative;
-  left:50%;
-  border: 3px solid #141357;
-  transform: translateX(-50%);
-  margin: 15px 0;
-  padding: 15px 100px;
-  transition: all 0.4s;
-  font-size: 17px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  
+  
 }
-.btn:hover{
-  background-color: #141357;
+
+
+
+.event-section .event img{
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+
+.event-image{
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.event:hover .event-image img{
+  transform: scale(1.1);
+  
+  
+}
+
+.event-image .event-btn{
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  color: #000;
+}
+.event:hover .event-image .event-btn{
+  bottom: 0;
+}
+.event-image .event-btn a{
+  line-height: 45px;
+  background-color: rgba(0, 0, 0, .4);
+  display: block;
   color: #fff;
+
+}
+
+
+.event .event-time{
+  margin: 30px 10px;
+  text-align: center;
+  
+}
+.event .event-time h2{
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+.event .event-time .time{
+  opacity: 0.6;
 }
 .distance{
   background-color:white;
