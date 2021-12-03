@@ -13,6 +13,35 @@
     <title>TLIT-Game show</title>
 </head>
 <body>
+    <div class="modal--music">
+        <div class="modal--caythong">
+            <div class="music--header">
+                Âm nhạc của chị Trang (Trưởng ban ứng dụng)
+            </div>
+            <div onclick='closeMusic()' class="btn--close close--music"><i class="fas fa-times"></i></div>
+            <div class="music--select">
+                <select name="music" id="music">
+                    <option value="1" selected='selected'>Brenda Lee Rockin Around The Christmas Tree</option>
+                    <option value="2">Elvis Presley Cant Help Falling In Love</option>
+                    <option value="3">Frank Sinatra Jingle Bells</option>
+                    <option value="4">Life Could Be A Dream Trap Remix</option>
+                    <option value="5">Michael Bublé Holly Jolly Christmas Official HD</option>
+                    <option value="6">Michael Bublé Its Beginning To Look A Lot Like Christmas</option>
+                    <option value="7">Sleigh Ride Christmas Song</option>
+                    <option value="8">Last Christmas George Michael Wham Beth Acoustic Piano Cover</option>
+                </select>
+            </div>
+            <div class="song">
+                <video style="height:200px;position:absolute;width: 100%;"  autoplay muted loop>
+                    <source src="./Audio-Trang sister/noel.mp4" type="video/mp4">
+                </video>
+                <audio class='song--play play1' controls >
+                    <source class="theSong Song1" src="./Audio-Trang sister/Brenda Lee  Rockin Around The Christmas Tree Official Lyric Video.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+  
     <div  class="bot--fix">
         <img onclick="botSupported()" src="./CSS/IMG/bot.png" alt="bot">
         <div class="bot__help--speech" >
@@ -55,6 +84,9 @@
     <audio class="speech3">
         <source src="./CSS/IMG/3.mp3" type="audio/mp3">
     </audio>
+    <audio class="speech4">
+        <source src="./CSS/IMG/4.mp3" type="audio/mp3">
+    </audio>
     <audio class="music" >
         <source src="./CSS/IMG/Thế anh_mixdown.mp3" type="audio/mp3">
     </audio>
@@ -64,6 +96,7 @@
         </video>
         <img class="picture--left " src="./CSS/IMG/image_processing20201217-13100-11og928-removebg.png" alt="love1">
         <img class="icon__cute__1" src="./CSS/IMG/3159075.png" alt="love2">
+        <img class="caythong icon__cute__1" src="./CSS/IMG/caythong.png" alt="love3">
         <div>
            <p class="text header--main__text">TLIT</p> 
         </div>
