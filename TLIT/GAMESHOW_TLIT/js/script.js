@@ -1,3 +1,6 @@
+function goToFindLove(){
+  window.open('../FindLove/index.html', '_blank');
+}
 function speech1(){
   document.querySelector('.speech1').play()
 }

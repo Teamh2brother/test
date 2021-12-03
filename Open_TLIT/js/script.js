@@ -29,7 +29,7 @@ document.querySelector('.times2').addEventListener('click',() => {
    
 })
 function diDenTrangChu(){
-    location.href="../Web_TLIT/index.html"
+    location.href="../TLIT/Web_TLIT/index.html"
 }
 document.querySelector('.link__signup').addEventListener('click',() => {
     logIn.classList.remove('open')
