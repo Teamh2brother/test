@@ -375,14 +375,14 @@ canvas{
 }
 .setout4{
   left:55% !important;
-  top:20% !important;
+  top:30% !important;
 }
 .set__{
   animation: movebot 1s linear forwards;
 }
 @keyframes movebot {
   100%{
-    transform: translate(-10%,0%);
+    transform: translate(-7%,50%);
   }
 }
 .btn--bot{
