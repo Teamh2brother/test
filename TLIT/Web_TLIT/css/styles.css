@@ -171,6 +171,7 @@ li a {
 }
 .taget__picture {
   width: 80%;
+  max-width: 550px;
   object-fit: fill;
 }
 .content {
